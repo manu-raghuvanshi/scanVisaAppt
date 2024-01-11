@@ -55,8 +55,7 @@ while True:
                         email_sender = "manu.raghuvanshi92@gmail.com"
                         email_password = os.getenv("check_visa_slot_password")
                         email_receivers = [
-                            "manu.raghuvanshi92@gmail.com",
-                            "heerakchugh@gmail.com"]
+                            ]
                         for email_receiver in email_receivers:
                             email_obj = EmailMessage()
                             email_obj["From"] = email_sender
